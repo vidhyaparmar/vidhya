@@ -11,8 +11,6 @@ padding-left:100px;
 }
 li{
 float:left;
-
-
 }
 h1{
 color:white;
@@ -27,6 +25,14 @@ margin-left:10%;
 }
 #image{
 margin-left:20%;
+}
+#form{
+border:1px solid black;
+border-radius:5px;
+padding-top:15px;
+width:80%;
+margin-left:10%;
+
 }
 </style>
 
@@ -43,5 +49,35 @@ margin-left:20%;
 <li><a href="https://github.com/vidhyaparmar"><img src="github.png"></a><li>
 </ul>
 </div>
+
+
+
 </body>
+
+
+<br>
+<br>
+<br>
+<br>	
+<h1 align="center"> If you have any query you can send your message </h1>
+<div id="form" align="center">	
+				
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Your name:</label>
+		
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br /></br>
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label>
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br /></br>
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label>
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br /></br>
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+</form>						
+<div>
+					
 </html>
